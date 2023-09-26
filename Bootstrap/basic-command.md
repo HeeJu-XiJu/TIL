@@ -6,4 +6,5 @@
 
 > project portfolio, resume theme site
 
->reference : [reference site](https://heeju-xiju.github.io)
+>reference git : [reference git](https://github.com/HeeJu-XiJu/HeeJu-XiJu.github.io.git)
+>reference site : [reference site](https://heeju-xiju.github.io)
