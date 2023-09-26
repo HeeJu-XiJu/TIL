@@ -10,6 +10,8 @@ git config --global user.name <이름>
 
 ## git 저장소 만들기
 
+![distribute](./image/distributed.png)
+
 - `git init`
     - `.git directory`를 생성해주는 명령어
     - 관리하고 싶은 최상위 위치에서 실행
@@ -29,6 +31,8 @@ git config --global user.name <이름>
     - 일반적으로 `-m`옵션을 넣어서 메세지를 추가하여 등록
 
 ## 원격저장소에 업로드하기
+
+![cycle](./image/lifecycle.png)
 
 - `remote add`
     - `git remote add <원격저장소이름> <URL>` : 원격저장소 주소를 <원격저장소이름>으로 저장
