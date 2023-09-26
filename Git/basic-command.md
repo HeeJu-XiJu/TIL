@@ -41,3 +41,5 @@ git config --global user.name <이름>
     - `git push <원격저장소이름> <브랜치이름>` : 원격저장소에 브랜치를 업로드
     - 보통 원격저장소이름 : Origin
     브랜치이름 : master (mac은 main)
+
+
