@@ -39,7 +39,46 @@ git config --global user.name <이름>
 
 - `push`
     - `git push <원격저장소이름> <브랜치이름>` : 원격저장소에 브랜치를 업로드
-    - 보통 원격저장소이름 : Origin
+    - 보통 원격저장소이름 : origin
     브랜치이름 : master (mac은 main)
 
 
+## 원격저장소 공유
+
+
+- 공유메일 전송 :  Git - Settings - Collaborators - Add people - user name
+
+- `clone` : 개인서버로 폴더 복제
+    1. mac template 열기 
+    2. `cd` 이용해 폴더 이동 
+    3. `git clone <URL>`
+
+- 수정 후 `push` 이용해 원격저장소 저장
+
+- `pull` : 원격저장소 새로운 데이터 불러오기
+    - `git pull <원격저장소이름> <브랜치이름>`
+
+>충돌이 일어났을 경우
+- 코드의 차이가 생겨 `push`를 해도 작동이 일어나지 않음
+- git의 최신 파일로 작업하지 않았을 경우 발생할 수 있음
+![error](./image/스크린샷%202023-09-26%20오후%2011.04.59.png)
+
+>오류 해결방법 
+- `pull` - `Auto-merging` 활성화
+![solution](./image/스크린샷%202023-09-26%20오후%2011.14.04.png)
+
+[git reference](https://github.com/yoogeon97/end-to-and.git)
+
+## Branch 
+- `branch` : master server를 이루기 위한 기능별 server (충돌방지)
+    - `git branch`
+    - `git branch -c <브랜치이름>`
+    - `git switch <브랜치이름>`
+    - New file 생성
+- git hub 공유
+    - pull request
+    - new pull request
+    - master - base 선택
+    - create pull request : code review 요청 글 작성
+
+[git reference](https://github.com/yoogeon97/end-to-and.git)
