@@ -76,9 +76,9 @@ git config --global user.name <이름>
     - `git switch <브랜치이름>`
     - New file 생성
 - git hub 공유
-    - pull request
-    - new pull request
+    - `pull request`
+    - `new pull request`
     - master - base 선택
-    - create pull request : code review 요청 글 작성
+    - `create pull request` : code review 요청 글 작성
 
 [git reference](https://github.com/yoogeon97/end-to-and.git)
