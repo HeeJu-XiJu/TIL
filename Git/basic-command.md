@@ -80,5 +80,9 @@ git config --global user.name <이름>
     - `new pull request`
     - master - base 선택
     - `create pull request` : code review 요청 글 작성
+- `merge` : code 수정사항 반영
+    - `merge pull request`
+        - 개발자 각자의 코드를 반영할 때 충돌 발생할 수 있음
+        - `resolve conflict`를 이용하여 conflict 발생한 코드 중 코드를 선택 -  `mark resolved` - `commit merge`
 
-[git reference](https://github.com/yoogeon97/end-to-and.git)
+[git reference](https://github.com/camp31/backiljang.git)
