@@ -56,22 +56,24 @@ python 개념 정리
 3. 논리연산자
     - `and` : 양쪽 모두 True일 때, True 변환
         - 단축평가
-        print(3 and 5) # True and True일 때 True를 출력하므로 `뒤값인 5` 출력
 
-        print(3 and 0) # True and False일 때 False를 출력하므로 `뒤값인 0` 출력
+            print(3 and 5) # True and True일 때 True를 출력하므로 `뒤값인 5` 출력
 
-        print(0 and 5) # False and True일 때 False를 출력하므로 `False(0)` 출력
+            print(3 and 0) # True and False일 때 False를 출력하므로 `뒤값인 0` 출력
 
-        print(0 and 0) # False and False일 때 False를 출력하므로 `False(0)` 출력
+            print(0 and 5) # False and True일 때 False를 출력하므로 `False(0)` 출력
+
+            print(0 and 0) # False and False일 때 False를 출력하므로 `False(0)` 출력
     - `or` : 양쪽 모두 False일 때, False 변환
         - 단축평가
-        print(3 or 5) # True or True일 때 True를 출력하므로 `앞값인 3` 출력
 
-        print(3 or 0) # True or False일 때 True를 출력하므로 `앞값인 3` 출력
+            print(3 or 5) # True or True일 때 True를 출력하므로 `앞값인 3` 출력
 
-        print(0 or 5) # False or True일 때 True를 출력하므로 `True인 5` 출력
+            print(3 or 0) # True or False일 때 True를 출력하므로 `앞값인 3` 출력
 
-        print(0 or 0) # False or False일 때 False를 출력하므로 `False(0)` 출력
+            print(0 or 5) # False or True일 때 True를 출력하므로 `True인 5` 출력
+
+            print(0 or 0) # False or False일 때 False를 출력하므로 `False(0)` 출력
     - `not` : 반대값 출력
 
 4. 복합연산자
@@ -84,20 +86,20 @@ python 개념 정리
     - `a = a ** b` => `a **= b`
 
 5. 기타연산자
-    - concatenation : type 통일
+    - `concatenation` : type 통일
         ```python
         a = 'hi'
         b = 'hello'
         a + b => 'hihello'
         ```
 
-    - containment
+    - `containment`
         ```python
         'a' in 'apple' => `True`
         'z' in 'apple' => `False`
         ```
 
-    - is : 메모리값 위치에 대한 출력
+    - `is` : 메모리값 위치에 대한 출력
         ```python
         a = 123123
         b = 123123
@@ -115,7 +117,7 @@ python 개념 정리
         1. `**`
         2. 산술연산자(`*`, `/`)
         3. 산술연산자(`+`, `-`)
-        4. 비교연산자, `is`, `in`
+        4. `비교연산자`, `is`, `in`
         5. `not`
         6. `and`, `or`
 
@@ -143,7 +145,7 @@ python 개념 정리
 ## 4. 시퀀스 자료형
 1. List
     - 선언 : `변수이름 = [value1, value2, value3]`
-    - 접근 : `변수이름[index]` ([-1] : 맨 오른쪽에서 첫번째)
+    - 접근 : `변수이름[index]` (`[-1]` : 맨 오른쪽에서 첫번째)
 2. Tuple
     - 선언 : `변수이름 = (value1, value2, value3)`
     - 접근 : `변수이름[index]`
