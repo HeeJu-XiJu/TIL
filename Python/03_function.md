@@ -47,7 +47,7 @@ def my_func(number):
 ```python
 func(num1, num2)
 func(num2, num1) 
-은 다른 출력값을 가짐
+두 값은 다른 출력값을 가짐
 ```
 
 ### 기본값
@@ -63,13 +63,16 @@ def func(p1, p2=v2):
 ```python
 def greeting(age, name='익명')
     return f'{age}살 {name}님 안녕하세요!!'
+
+# print(greeting(10)) => 10살 익명님 안녕하세요!!
 ```
-print(greeting(10)) => 10살 익명님 안녕하세요!!
 
 ### 키워드 인자
 함수를 호출(실행)할 때 내가 원하는 위치에 직접적으로 특정인자를 전달 가능
 
+```python
 print(greeting(name='홍길동', age=30))
+```
 
 ### 가변 인자 리스트
 ```python
@@ -84,8 +87,8 @@ def func(*parms):
 def my_print(*words):
     print(words)
 
-my_print('a', 'b', 'c')
-=> {'a', 'b', 'c'} Tuple형태로 반환
+# my_print('a', 'b', 'c') 
+# => {'a', 'b', 'c'} Tuple형태로 반환
 ```
 
 ### 정의되지 않은 키워드 인자
@@ -101,8 +104,8 @@ def func(**kwargs):
 def fake_dict(**kwargs):
     print(kwargs)
 
-fake_dict(a=10, b=20)
-=> {'a': 10, 'b': 20} dict로 출력
+# fake_dict(a=10, b=20) 
+# => {'a': 10, 'b': 20} dict로 출력
 ```
 
 ### dictionary를 인자로 넣기(unpacking)
@@ -146,5 +149,7 @@ python에서 사용되는 이름들은 이름공간(namespace)에 저장
 
 ### 재귀(recursive)
 재귀함수는 함수 내부에서 자기 자신을 호출하는 함수
+
 ex. 팩토리얼, 피보나치 수열 등
+
 계산이 오래 걸린다는 단점이 있음
