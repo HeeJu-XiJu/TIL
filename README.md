@@ -30,6 +30,15 @@
 - [13_데이터수정](https://github.com/HeeJu-XiJu/Pandas/blob/main/13.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%88%98%EC%A0%95.ipynb)
 - [14_그룹화](https://github.com/HeeJu-XiJu/Pandas/blob/main/14.%20%EA%B7%B8%EB%A3%B9%ED%99%94.ipynb)
 - [15_데이터병합](https://github.com/HeeJu-XiJu/Pandas/blob/main/15.%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B3%91%ED%95%A9.ipynb)
+- [16_시각화 - matplotlib기본](https://github.com/HeeJu-XiJu/Pandas/blob/main/16.%20%EC%8B%9C%EA%B0%81%ED%99%94%20-%20matplotlib%EA%B8%B0%EB%B3%B8.ipynb)
+- [17_시각화 - 다중그래프, 데이터프레임활용](https://github.com/HeeJu-XiJu/Pandas/blob/main/17.%20%EC%8B%9C%EA%B0%81%ED%99%94%20-%20%EB%8B%A4%EC%A4%91%EA%B7%B8%EB%9E%98%ED%94%84%2C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%94%84%EB%A0%88%EC%9E%84%ED%99%9C%EC%9A%A9.ipynb)
+- [18_시각화 - 꺾은선그래프](https://github.com/HeeJu-XiJu/Pandas/blob/main/18.%20%EC%8B%9C%EA%B0%81%ED%99%94%20-%20%EA%BA%BE%EC%9D%80%EC%84%A0%EA%B7%B8%EB%9E%98%ED%94%84.ipynb)
+- [19_시각화 - 막대그래프](https://github.com/HeeJu-XiJu/Pandas/blob/main/19.%20%EC%8B%9C%EA%B0%81%ED%99%94%20-%20%EB%A7%89%EB%8C%80%EA%B7%B8%EB%9E%98%ED%94%84.ipynb)
+- [20_시각화 - 원그래프](https://github.com/HeeJu-XiJu/Pandas/blob/main/20.%20%EC%8B%9C%EA%B0%81%ED%99%94%20-%20%EC%9B%90%EA%B7%B8%EB%9E%98%ED%94%84.ipynb)
+- [21_시각화 - 산점도그래프](https://github.com/HeeJu-XiJu/Pandas/blob/main/21.%20%EC%8B%9C%EA%B0%81%ED%99%94%20-%20%EC%82%B0%EC%A0%90%EB%8F%84%20%EA%B7%B8%EB%9E%98%ED%94%84.ipynb)
+- [22_시각화 - 활용](https://github.com/HeeJu-XiJu/Pandas/blob/main/22.%20%EC%8B%9C%EA%B0%81%ED%99%94%20-%20%ED%99%9C%EC%9A%A9.ipynb)
+- [23_시각화 - seaborn](https://github.com/HeeJu-XiJu/Pandas/blob/main/23_%EC%8B%9C%EA%B0%81%ED%99%94%20-%20seaborn.ipynb)
+- [24_시각화 - folium](https://github.com/HeeJu-XiJu/Pandas/blob/main/24_%EC%8B%9C%EA%B0%81%ED%99%94%20-%20folium.ipynb)
 
 
 ### ETC
