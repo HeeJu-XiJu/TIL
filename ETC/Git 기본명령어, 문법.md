@@ -12,49 +12,46 @@ git config --global user.name <이름>
 <br>
 
 ### ✅ Git 저장소 생성
-#### ✔️ `git init`
-: `.git directory`를 생성해주는 명령어
+#### ✔️ init
+- `git init` : `.git directory`를 생성해주는 명령어
 - 관리하고 싶은 최상위 위치에서 실행
 #### ✔️ .gitignore생성 
-: git으로 관리하지 않을 파일 설정
+- git으로 관리하지 않을 파일 설정
 - [gitignore.io](https://www.toptal.com/developers/gitignore) 사이트에서 생성가능
 
 <br>
 
 ### ✅ Git 상태 체크
-#### ✔️ `git status`
-: 현재 git으로 관리되고 있는 파일/폴더의 상태를 출력
-#### ✔️ `git log` 
-: commit내역 확인
-#### ✔️ `git reset HEAD^`
-: 마지막 commit 취소
+#### ✔️ status
+- `git status` : 현재 git으로 관리되고 있는 파일/폴더의 상태를 출력
+#### ✔️ log
+- `git log` : commit내역 확인
+#### ✔️ reset
+- `git reset HEAD^` : 마지막 commit 취소
 
 <br>
 
 ### ✅ Branch (브랜치)
 : master server를 이루기 위한 기능별 server (충돌방지)
-#### ✔️ `git branch -all` 
-: 모든 브랜치 조회
-#### ✔️ `git branch <브랜치이름>` 
-: 브랜치 생성
-#### ✔️ `git switch <브랜치이름>` 
-: 브랜치 이동
+- `git branch -all` : 모든 브랜치 조회
+- `git branch <브랜치이름>` : 브랜치 생성
+- `git switch <브랜치이름>` : 브랜치 이동
 
 <br>
 
 ### ✅ 코드 수정하고 저장소에 저장하기
-#### ✔️ `add`
+#### ✔️ add
 - `git add <파일/폴더이름>` : working directory에서 staging area로 추가
 - `git add <.>` : 모든 파일, 폴더를 staging area로 추가
-#### ✔️ `commit`
+#### ✔️ commit
 - `git commit -m "메세지"` : `staging area`에 올라간 파일들의 스냅샷을 찍어서 `.git directory`에 저장
 
 <br>
 
 ### ✅ 원격저장소에 업로드하기
-#### ✔️ `remote add`
+#### ✔️ remote add
 - `git remote add <원격저장소이름> <원격저장소URL>` : 원격저장소URL을 <원격저장소이름>으로 저장
-#### ✔️ `push`
+#### ✔️ push
 - `git push <원격저장소이름> <브랜치이름>` : 원격저장소에 브랜치를 업로드
 - 보통 원격저장소이름 : origin\
 브랜치이름 : master (mac은 main)
@@ -64,15 +61,15 @@ git config --global user.name <이름>
 ### ✅ 원격저장소 공유
 - 공유메일 전송 :  Git - Settings - Collaborators - Add people - user name
 
-#### ✔️ `clone`
+#### ✔️ clone
 - `git clone <원격저장소URL>` : 개인서버로 폴더 복제 
 
-#### ✔️ `pull`
+#### ✔️ pull
 - `git pull <원격저장소이름> <브랜치이름>` : 원격저장소 새로운 데이터 불러오기
 
-#### ✔️ `merge`
-: code 수정사항 반영(병합)\
-  github에서 `merge pull request`를 통해 최종 반영
+#### ✔️ merge
+- code 수정사항 반영(병합)
+- github에서 `merge pull request`를 통해 최종 반영
 
 <br>
 
