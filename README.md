@@ -12,6 +12,9 @@
 - [09_딕셔너리메소드](https://github.com/HeeJu-XiJu/Python/blob/main/09_%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC%EB%A9%94%EC%86%8C%EB%93%9C.ipynb)
 - [10_세트메소드](https://github.com/HeeJu-XiJu/Python/blob/main/10_%EC%84%B8%ED%8A%B8%EB%A9%94%EC%86%8C%EB%93%9C.ipynb)
 - [11_errors](https://github.com/HeeJu-XiJu/Python/blob/main/11_errors.ipynb)
+- [12_모듈/패키지](https://github.com/HeeJu-XiJu/Python/blob/main/12_%EB%AA%A8%EB%93%88%2C%20%ED%8C%A8%ED%82%A4%EC%A7%80.ipynb)
+- [13_클래스(OOP)](https://github.com/HeeJu-XiJu/Python/blob/main/13_%ED%81%B4%EB%9E%98%EC%8A%A4(OOP).ipynb)
+- [14_클래스(OOP)활용](https://github.com/HeeJu-XiJu/Python/blob/main/14_%ED%81%B4%EB%9E%98%EC%8A%A4(OOP)%ED%99%9C%EC%9A%A9.py)
 
 
 ### Pandas
